@@ -1,4 +1,4 @@
-# Hex
+# Hex [modified to work with new OTP 24 crypto APIs]
 
 [![CI](https://github.com/hexpm/hex/workflows/CI/badge.svg)](https://github.com/hexpm/hex/actions)
 
@@ -7,6 +7,10 @@ Hex is package manager for the Erlang VM.
 This project currently provides tasks that integrate with Mix, [Elixir](https://github.com/elixir-lang/elixir)'s build tool.
 
 See [hex.pm](https://hex.pm) for installation instructions and other documentation.
+
+## Installation
+
+Run `mix archive.build`, then `mix archive.install ARCHIVE_NAME`
 
 ## Contributing
 
